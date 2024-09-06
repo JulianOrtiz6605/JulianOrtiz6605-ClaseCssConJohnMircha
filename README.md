@@ -3,6 +3,15 @@ Para el portatil JulianOrtiz1020(Macarrones)
 
 Colocar siempre el minuto en que termina la clase.
 
-Comandos Git: 
-        git push para subir los ultimos cambios
-        git pull para bajar o actualizar cambios
+********************************************************************************************
+Sincronizar Cambios:
+
+Antes de empezar a trabajar, siempre realiza un git pull para obtener los últimos cambios:
+
+
+git pull origin main
+Después de hacer cambios y commits en una computadora, realiza un git push para subir los cambios:
+
+
+git push origin main
+Repite los pasos anteriores en la otra computadora para mantener ambos entornos sincronizados.
