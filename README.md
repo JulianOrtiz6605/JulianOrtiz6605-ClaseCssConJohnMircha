@@ -1,4 +1,5 @@
 time:2512
+2) Estructura básica de html
 1) Historia de html y su documentación :-> https://youtu.be/-oK6zL01fNM?si=B4_Uw76t15mpjK8q&t=1502
 
 ********************************************************************************************
