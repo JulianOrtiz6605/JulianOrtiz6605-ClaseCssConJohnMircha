@@ -1,3 +1,7 @@
+time:2512
+1) Historia de html y su documentación :-> https://youtu.be/-oK6zL01fNM?si=B4_Uw76t15mpjK8q&t=1502
+
+********************************************************************************************
 Inicio del curso Básicos de la Web. (Curso HTML & CSS ( 1 / 5 ): Fundamentos HTML - jonmircha) https://youtu.be/-oK6zL01fNM?si=NffPKp6iuYOwQS7y
 
 
@@ -19,5 +23,3 @@ Después de hacer cambios y commits en una computadora, realiza un git push para
 
 git push origin main
 Repite los pasos anteriores en la otra computadora para mantener ambos entornos sincronizados.
-
-❤️ Mamasita, te amo ❤️
