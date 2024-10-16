@@ -7,9 +7,54 @@
 }
 */
 /* Son mala practica porque son bloqueantes a la hora de que el navegador lee esta instrucción */
-/* @import url("otra-hoja.css");  */
+@import url("otra-hoja.css");
 
 h1 {
   color: orangered;
   background-color: black;
+}
+
+p {
+  color: midnightblue;
+}
+
+/* Dar estilos con id es considerado un Antipatrón en CSS, anque pueden ser usados en algunas funcionalidades del DOM de Javascript */
+#parrafo-dos bg-skyblue {
+  background-color: skyblue;
+}
+
+/* Dar estilos con clases nos permite reutilizar nuestro código CSS */
+.bg-skyblue {
+  background-color: skyblue;
+}
+.bg-steelblue {
+  background-color: steelblue;
+}
+.text-20 {
+  font-size: 20px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.text-white {
+  color: white;
+}
+
+.hijos-directos > li {
+  background-color: thistle;
+}
+
+.hijos-descendientes b {
+  background-color: thistle;
+}
+
+/* Los selectores de hermanos van a aplicar a los elementos que son heremanos y que estén por debajo del elemento de referencia*/
+.hermanos-general ~ li {
+  background-color: thistle;
+}
+
+.hermanos-adyacentes + li {
+  background-color: thistle;
 }
